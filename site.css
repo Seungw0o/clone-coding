@@ -1,0 +1,141 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 0;
+}
+
+header{
+    width: 1411px;
+    /* border: solid 1px red; */
+    height: 135px;
+    padding-top : 40px;
+    padding-right: 53px;
+    padding-left: 53px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.932);
+}
+.logo{
+    text-align: center;
+    /* border: solid 1px green; */
+    margin-bottom: 25px;
+    /* vertical-align: middle; */
+}
+nav.menu-navi{
+    /* border: solid 1px violet; */
+    font-size: 20px;
+}
+nav.menu-navi ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+nav li:hover{
+    color: gray;
+}
+.nav-center{
+    list-style: none;
+    display: flex;
+    /* border: solid 1px black; */
+}
+.nav-left{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    /* border: solid 1px black; */
+    flex: 1;
+}
+.nav-right{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    /* border: solid 1px black; */
+    text-align: right;
+    flex: 1;
+}
+.photo-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-main-space{
+    padding: 88px;
+}
+.header-hamburger{
+    display: none;
+    font-size: 160%;
+    margin-left: 30px;
+}
+aside.side-menu{
+    display: none;
+}
+@media only screen and (max-width: 990px){
+    .nav-center{
+        display: none;
+    }
+    .nav-left{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+    .header-main-space{
+        padding-top: 27px;
+    }
+    header{ 
+        /* 아 ㅅㅂ 모르겠다 */
+        padding-top: 15px;
+        height: 104px;
+    }
+    #hamburger-logo{
+        cursor: pointer;
+    }
+    #hamburger-logo:hover{
+        color: gray;
+    }
+    .header-hamburger{
+        display: flex;
+        justify-content: flex-start;
+        flex: 1;
+        margin-left: -80px;
+        /* padding-top: 0px; */
+    }
+    aside.side-menu{
+        border: solid 1px red;
+        height: 100%;
+        width: 90%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: white;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+    /* .logo{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    } */
+}
+.home-menu{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: black;
+    cursor: pointer;
+}
+.home-menu-right{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    color: black;
+}
+.home-menu-left{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    color: black;
+}
