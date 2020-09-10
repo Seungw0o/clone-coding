@@ -138,3 +138,52 @@ aside.side-menu{
     cursor: pointer;
     color: black;
 }
+footer{
+    background-color: rgb(226, 224, 224);
+    height: 200px;
+}
+.footer-menu-top{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color: gray;
+    padding-bottom: 0px;
+}
+
+.footer-menu-top>li{
+    padding-left: 0.2cm;
+}
+.footer-menu-middle{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.footer-menu-bottom{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    margin-top: -12px;
+}
+.lowest-logo{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+#footer-top-space{
+    padding-top: 40px;
+}
+.footer-top-logos{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding-bottom: 10px;
+        font-size: 20px;
+}
+.bottom-logo{
+    color: gray;
+    padding-right: 30px;
+    padding-top: -10px;
+}
